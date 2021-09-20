@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="edit_text_hint">Enter Number</string>
+    <string name="button_text1">1</string>
+    <string name="button_text2">2</string>
+    <string name="button_text3">3</string>
+    <string name="button_text4">4</string>
+    <string name="button_textC">C</string>
+    <string name="button_text0">0</string>
+    <string name="button_text.">.</string>
+    <string name="button_textEq">=</string>
+    <string name="button_text7">7</string>
+    <string name="button_text6">6</string>
+    <string name="button_text5">5</string>
+    <string name="button_text9">9</string>
+    <string name="button_text8">8</string>
+    <string name="button_textPls">+</string>
+    <string name="button_textDiv">/</string>
+    <string name="button_textMin">-</string>
+</resources>

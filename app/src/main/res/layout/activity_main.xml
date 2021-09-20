@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/button_padding"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/editT_margin"
+        android:layout_marginLeft="@dimen/editT_margin"
+        android:layout_marginTop="@dimen/editT_margin"
+        android:layout_marginEnd="@dimen/editT_margin"
+        android:layout_marginRight="@dimen/editT_margin"
+        android:layout_marginBottom="@dimen/editT_margin"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/edit_text_hint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:focusable="false"
+        android:padding="@dimen/editT_padding" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="4"
+        style="@style/button_style">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn1"
+                android:onClick="Manual"
+                android:text="@string/button_text1"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btn4"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_text4"
+                />
+            <Button
+                android:id="@+id/btn7"
+                android:onClick="Manual"
+                android:text="@string/button_text7"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btnC"
+                android:background="@drawable/button_border"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_textC"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn2"
+                android:onClick="Manual"
+                android:text="@string/button_text2"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btn5"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_text5"
+                />
+            <Button
+                android:id="@+id/btn8"
+                android:onClick="Manual"
+                android:text="@string/button_text8"
+                style="@style/CalcButton_style" />
+            <Button
+                style="@style/CalcButton_style"
+                android:id="@+id/btn0"
+                android:onClick="Manual"
+                android:text="@string/button_text0"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn3"
+                android:onClick="Manual"
+                android:text="@string/button_text3"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btn6"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_text6"
+                />
+            <Button
+                android:id="@+id/btn9"
+                android:onClick="Manual"
+                android:text="@string/button_text9"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btn."
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_text."
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnDiv"
+                android:onClick="Manual"
+                android:text="@string/button_textDiv"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btnMin"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_textMin"
+                />
+            <Button
+                android:id="@+id/btnPls"
+                android:onClick="Manual"
+                android:text="@string/button_textPls"
+                style="@style/CalcButton_style" />
+            <Button
+                android:id="@+id/btnEq"
+                android:onClick="Manual"
+                style="@style/CalcButton_style"
+                android:text="@string/button_textEq"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

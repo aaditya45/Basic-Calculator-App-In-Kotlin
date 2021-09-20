@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_height">150dp</dimen>
+    <dimen name="editT_margin">16dp</dimen>
+    <dimen name="editT_padding">12dp</dimen>
+    <dimen name="Button_size">75dp</dimen>
+    <dimen name="button_margin">3dp</dimen>
+    <dimen name="button_padding">3dp</dimen>
+    <dimen name="button_padding2">6dp</dimen>
+    <dimen name="button_padding3">-5dp</dimen>
+    <dimen name="text_size">35sp</dimen>
+</resources>
